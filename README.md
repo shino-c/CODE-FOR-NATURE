@@ -1,154 +1,129 @@
-#🌿 Code For Nature
+# 🌿 Code For Nature
 
-A nature awareness and engagement application designed to educate users about environmental issues while encouraging daily participation through interactive activities and a reward system. The application combines learning, gamification, and environmental contribution to promote sustainable awareness.
+A **nature awareness and engagement application** designed to educate users about environmental issues while encouraging daily participation through interactive activities and a reward system. The application combines **learning, gamification, and environmental contribution** to promote sustainable awareness.
 
-📱 Features
-🔐 User Authentication
+---
 
-Secure Login and Registration system
+## 📱 Features
 
-Email validation and password strength checking
+### 🔐 User Authentication
+- Secure **Login and Registration system**
+- Email validation and password strength checking
+- **One-Time Password (OTP)** verification via email
+- Password protection using **SHA-256 hashing**
 
-One-Time Password (OTP) verification via email
+### 📅 Daily Check-In
+- Users can check in **once per day**
+- Earn **reward points** for consistent engagement
+- Points are automatically updated in the database
 
-Password protection using SHA-256 hashing
+### 🧠 Daily Trivia
+- Nature-related **multiple choice trivia questions**
+- Users have **two attempts** to answer correctly
+- Earn points based on accuracy
+- Ability to review **previous trivia questions**
 
-📅 Daily Check-In
+### 📰 Nature News
+- Displays the **latest nature-related news**
+- Filters news containing **nature-related keywords**
+- Shows the **top 5 most recent articles**
 
-Users can check in once per day
-
-Earn reward points for consistent engagement
-
-Points are automatically updated in the database
-
-🧠 Daily Trivia
-
-Nature-related multiple choice trivia questions
-
-Users have two attempts to answer correctly
-
-Earn points based on accuracy
-
-Ability to review previous trivia questions
-
-📰 Nature News
-
-Displays the latest nature-related news
-
-Filters news containing nature-related keywords
-
-Shows the top 5 most recent articles
-
-🛍️ Points Shop
-
+### 🛍️ Points Shop
 Users can spend earned points to:
+- Redeem **nature-themed merchandise**
+- Support **tree planting initiatives**
 
-Redeem nature-themed merchandise
+Purchase records are stored for tracking.
 
-Support tree planting initiatives
-
-Purchase records are stored for tracking
-
-💝 Donation System
-
-Users can donate to environmental NGOs
+### 💝 Donation System
+Users can donate to **environmental NGOs**.
 
 Donation distribution:
+- **90% → NGO**
+- **10% → Platform maintenance**
 
-90% → NGO
+Users receive reward points based on their donation amount.
 
-10% → Platform maintenance
-
-Users earn points based on donation amount
-
-👤 User Profile
-
+### 👤 User Profile
 Users can view and manage:
+- Username
+- Email
+- Registration date
+- Delivery address
+- Password updates
 
-Username
+---
 
-Email
+## ⚙️ Technologies Used
 
-Registration date
+| Technology | Purpose |
+|-------------|--------|
+| ☕ Java | Core application development |
+| 🎨 JavaFX | Graphical User Interface |
+| 🗄️ Microsoft Access | Relational Database |
+| 🔐 SHA-256 | Password Hashing |
+| 📧 Azure Email API | Email notifications & OTP |
+| 📚 Java Libraries | File handling, security, networking |
 
-Delivery address
+---
 
-Password updates
+## 🗄️ Database Structure
 
-⚙️ Technologies Used
-Technology	Purpose
-☕ Java	Core application development
-🎨 JavaFX	Graphical User Interface
-🗄️ Microsoft Access	Relational Database
-🔐 SHA-256	Password Hashing
-📧 Azure Email API	Email notifications & OTP
-📚 Java Libraries	File handling, security, networking
-🗄️ Database Structure
+The system uses a **relational database** with several connected tables:
 
-The system uses a relational database with multiple connected tables:
+- 👤 **User Table** – Stores main user information  
+- 📍 **Address Table** – Stores user delivery address  
+- ❓ **Trivia Table** – Stores trivia attempts and results  
+- 💰 **Donation Table** – Records user donations  
+- 🛒 **Point Shop Table** – Stores reward redemption history  
+- ⚙️ **User Settings Table** – Stores account preferences  
 
-👤 User Table – Stores main user information
+---
 
-📍 Address Table – Stores user delivery address
-
-❓ Trivia Table – Stores trivia attempts and results
-
-💰 Donation Table – Records user donations
-
-🛒 Point Shop Table – Stores reward redemption history
-
-⚙️ User Settings Table – Stores account preferences
-
-🔒 Security Features
+## 🔒 Security Features
 
 To protect user data, the system implements:
 
-🔐 Password Hashing (SHA-256)
+- 🔐 **Password Hashing (SHA-256)**
+- 🔁 **PBKDF2 Key Derivation**
+- 📧 **OTP Authentication**
+- 🛡️ Secure email verification process
 
-🔁 PBKDF2 Key Derivation
+These mechanisms help ensure that user accounts and personal data remain protected.
 
-📧 OTP Authentication
+---
 
-🛡️ Secure email verification process
-
-These mechanisms ensure that user passwords and personal information remain protected.
-
-🎯 Project Goal
+## 🎯 Project Goal
 
 The goal of this application is to:
 
-🌍 Raise awareness about environmental issues
+- 🌍 Raise awareness about **environmental issues**
+- 📚 Encourage **learning about nature**
+- 🎮 Promote **daily engagement through gamification**
+- 🌱 Support **environmental contributions** such as donations and tree planting
 
-📚 Encourage learning about nature
+---
 
-🎮 Promote daily engagement through gamification
+## 👨‍💻 Team Members
 
-🌱 Support environmental contributions such as donations and tree planting
+**Group: UNKNOWNVARIABLES**
 
-👨‍💻 Team Members
+- Daniel Leong Yi Heng
+- Chow Shino
+- Lee Xiang Wen
+- Ng Yu Heng
+- Wong Yoong Yee
 
-Group: UNKNOWNVARIABLES
+---
 
-Daniel Leong Yi Heng
-
-Chow Shino
-
-Lee Xiang Wen
-
-Ng Yu Heng
-
-Wong Yoong Yee
-
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Potential improvements for the project include:
 
-🌐 Real-time news API integration
+- 🌐 Real-time **news API integration**
+- 📊 **Global leaderboard system**
+- 📱 Mobile version of the application
+- 🧭 Location-based environmental activities
+- 🤝 Community challenges and achievements
 
-📊 Global leaderboard system
-
-📱 Mobile version of the application
-
-🧭 Location-based environmental activities
-
-🤝 Community challenges and achievements
+---
