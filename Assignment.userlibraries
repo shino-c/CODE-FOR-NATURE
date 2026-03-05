@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.opentest4j:opentest4j:1.2.0">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar" />
+  </library>
+  <library name="Maven: org.apiguardian:apiguardian-api:1.1.2">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-commons:1.8.2">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-base:win:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-base/17.0.1/javafx-base-17.0.1-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-base:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-base/17.0.1/javafx-base-17.0.1.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-fxml:win:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-fxml/17.0.1/javafx-fxml-17.0.1-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-fxml:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-fxml/17.0.1/javafx-fxml-17.0.1.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-engine:1.8.2">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-controls:win:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-controls/17.0.1/javafx-controls-17.0.1-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-controls:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-controls/17.0.1/javafx-controls-17.0.1.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-graphics:win:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-graphics/17.0.1/javafx-graphics-17.0.1-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-graphics:17.0.1">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/openjfx/javafx-graphics/17.0.1/javafx-graphics-17.0.1.jar" />
+  </library>
+  <library name="azure.core">
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-core/1.42.0/azure-core-1.42.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-json/1.0.1/azure-json-1.0.1.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/projectreactor/reactor-core/3.4.30/reactor-core-3.4.30.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+  </library>
+  <library name="azure.resourcemanager">
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager/2.19.0/azure-resourcemanager-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-resources/2.19.0/azure-resourcemanager-resources-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-core/1.32.0/azure-core-1.32.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.3/jackson-dataformat-xml-2.13.3.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.7/woodstox-core-6.2.7.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/projectreactor/reactor-core/3.4.22/reactor-core-3.4.22.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-core-management/1.8.0/azure-core-management-1.8.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-storage/2.19.0/azure-resourcemanager-storage-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-compute/2.19.0/azure-resourcemanager-compute-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-network/2.19.0/azure-resourcemanager-network-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-keyvault/2.19.0/azure-resourcemanager-keyvault-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-security-keyvault-keys/4.5.0/azure-security-keyvault-keys-4.5.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-security-keyvault-secrets/4.5.0/azure-security-keyvault-secrets-4.5.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-msi/2.19.0/azure-resourcemanager-msi-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-sql/2.19.0/azure-resourcemanager-sql-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-authorization/2.19.0/azure-resourcemanager-authorization-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-appservice/2.19.0/azure-resourcemanager-appservice-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-cosmos/2.19.0/azure-resourcemanager-cosmos-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-containerservice/2.19.0/azure-resourcemanager-containerservice-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-monitor/2.19.0/azure-resourcemanager-monitor-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-containerregistry/2.19.0/azure-resourcemanager-containerregistry-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-dns/2.19.0/azure-resourcemanager-dns-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-appplatform/2.19.0/azure-resourcemanager-appplatform-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-storage-file-share/12.15.1/azure-storage-file-share-12.15.1.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-storage-common/12.18.1/azure-storage-common-12.18.1.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-containerinstance/2.19.0/azure-resourcemanager-containerinstance-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-privatedns/2.19.0/azure-resourcemanager-privatedns-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-redis/2.19.0/azure-resourcemanager-redis-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-eventhubs/2.19.0/azure-resourcemanager-eventhubs-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-trafficmanager/2.19.0/azure-resourcemanager-trafficmanager-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-servicebus/2.19.0/azure-resourcemanager-servicebus-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-cdn/2.19.0/azure-resourcemanager-cdn-2.19.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/resourcemanager/azure-resourcemanager-search/2.19.0/azure-resourcemanager-search-2.19.0.jar" />
+  </library>
+  <library name="azure.communication.email">
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-communication-email/1.0.9/azure-communication-email-1.0.9.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-core/1.45.1/azure-core-1.45.1.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-json/1.1.0/azure-json-1.1.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/projectreactor/reactor-core/3.4.34/reactor-core-3.4.34.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-core-http-netty/1.13.11/azure-core-http-netty-1.13.11.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-handler/4.1.101.Final/netty-handler-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-resolver/4.1.101.Final/netty-resolver-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-transport/4.1.101.Final/netty-transport-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-handler-proxy/4.1.101.Final/netty-handler-proxy-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-codec-socks/4.1.101.Final/netty-codec-socks-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-buffer/4.1.101.Final/netty-buffer-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-codec/4.1.101.Final/netty-codec-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-codec-http/4.1.101.Final/netty-codec-http-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-codec-http2/4.1.101.Final/netty-codec-http2-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.101.Final/netty-transport-native-unix-common-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-transport-native-epoll/4.1.101.Final/netty-transport-native-epoll-4.1.101.Final-linux-x86_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.101.Final/netty-transport-classes-epoll-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.101.Final/netty-transport-native-kqueue-4.1.101.Final-osx-x86_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.101.Final/netty-transport-classes-kqueue-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.62.Final/netty-tcnative-boringssl-static-2.0.62.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-tcnative-classes/2.0.62.Final/netty-tcnative-classes-2.0.62.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.62.Final/netty-tcnative-boringssl-static-2.0.62.Final-linux-x86_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.62.Final/netty-tcnative-boringssl-static-2.0.62.Final-linux-aarch_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.62.Final/netty-tcnative-boringssl-static-2.0.62.Final-osx-x86_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.62.Final/netty-tcnative-boringssl-static-2.0.62.Final-osx-aarch_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.62.Final/netty-tcnative-boringssl-static-2.0.62.Final-windows-x86_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.0.39/reactor-netty-http-1.0.39.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-resolver-dns/4.1.101.Final/netty-resolver-dns-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-codec-dns/4.1.101.Final/netty-codec-dns-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.101.Final/netty-resolver-dns-native-macos-4.1.101.Final-osx-x86_64.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.101.Final/netty-resolver-dns-classes-macos-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.0.39/reactor-netty-core-1.0.39.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/io/netty/netty-common/4.1.101.Final/netty-common-4.1.101.Final.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/com/azure/azure-communication-common/1.2.15/azure-communication-common-1.2.15.jar" />
+  </library>
+  <library name="slf4j.api">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar" />
+  </library>
+  <library name="slf4j.jdk14">
+    <archive path="C:/Users/ng-yu/.m2/repository/org/slf4j/slf4j-jdk14/2.0.0/slf4j-jdk14-2.0.0.jar" />
+    <archive path="C:/Users/ng-yu/.m2/repository/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar" />
+  </library>
+</eclipse-userlibraries>
+

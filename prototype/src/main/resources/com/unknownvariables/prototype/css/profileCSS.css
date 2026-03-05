@@ -1,0 +1,106 @@
+.text{
+    -fx-font-family: HarmonyOS Sans SC;
+}
+
+.hyperlink{
+    -fx-focus-traversable: true;
+}
+
+
+#vboxGeneral{
+    -fx-background-image: url("../Images/bgImage.jpg");
+    -fx-background-size: cover;
+    -fx-pref-width: 1024px;
+    -fx-pref-height: 600px;
+    -fx-padding: 20px 20px 20px 20px;
+
+}
+
+#profileButton{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+}
+
+#navButton{
+    -fx-background-color: #0b2e59;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+
+}
+
+#navButton:hover{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+#navButton:pressed,#profileButton:pressed{
+    -fx-background-color: #ccd91a;
+}
+
+#updatePasswordButton{
+    -fx-background-color: blue;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: white;
+    -fx-focus-traversable: true;
+}
+
+#updatePasswordButton:hover{
+    -fx-background-color: blue;
+    -fx-pref-width: 125px;
+
+}
+
+#updatePasswordButton:pressed{
+    -fx-background-color: rgb(0,90,255);
+}
+
+
+.toggle-button {
+    -fx-pref-width: 60px;
+    -fx-pref-height: 35px;
+}
+
+#updateButton{
+    -fx-background-color: blue;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: white;
+    -fx-focus-traversable: true;
+}
+
+#updateButton:hover{
+    -fx-background-color: blue;
+    -fx-pref-width: 85px;
+
+}
+
+#updateButton:pressed{
+    -fx-background-color: rgb(0,90,255);
+}
+
+#backButton{
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: black;
+    -fx-focus-traversable: true;
+}
+
+#backButton:hover{
+    -fx-background-color: white;
+    -fx-pref-width: 85px;
+
+}
+
+#backButton:pressed{
+    -fx-background-color: rgb(200,200,200);
+}

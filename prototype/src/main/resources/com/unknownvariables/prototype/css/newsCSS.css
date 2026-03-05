@@ -1,0 +1,46 @@
+.text{
+    -fx-font-family: HarmonyOS Sans SC;
+}
+
+.hyperlink{
+    -fx-focus-traversable: true;
+    -fx-font-size: 15px;
+}
+
+
+#vboxGeneral{
+    -fx-background-image: url("../Images/bgImage.jpg");
+    -fx-background-size: cover;
+    -fx-pref-width: 1024px;
+    -fx-pref-height: 600px;
+    -fx-alignment: center;
+    -fx-padding: 20px 20px 20px 20px;
+
+}
+
+#newsButton{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+}
+
+#navButton{
+    -fx-background-color: #0b2e59;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+
+}
+
+#navButton:hover{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+#navButton:pressed, #newsButton:pressed{
+    -fx-background-color: #ccd91a;
+    -fx-text-fill: black;
+}

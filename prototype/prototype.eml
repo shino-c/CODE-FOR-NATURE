@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_17" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" scope="TEST"/>
+	<lib name="Maven: org.opentest4j:opentest4j:1.2.0" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-commons:1.8.2" scope="TEST"/>
+	<lib name="Maven: org.apiguardian:apiguardian-api:1.1.2" scope="TEST"/>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-engine:1.8.2" scope="TEST"/>
+	<lib name="commons-lang3-3.8.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/commons-lang3-3.8.1.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/commons-logging-1.2.jar!/"/>
+	</lib>
+	<lib name="hsqldb-2.5.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/hsqldb-2.5.0.jar!/"/>
+	</lib>
+	<lib name="jackcess-3.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/jackcess-3.0.1.jar!/"/>
+	</lib>
+	<lib name="ucanaccess-5.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/ucanaccess-5.0.1.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-j-8.2.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/mysql-connector-j-8.2.0.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Maven: org.openjfx:javafx-controls:17.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-controls:win:17.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-graphics:17.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-graphics:win:17.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-base:17.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-base:win:17.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-fxml:17.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-fxml:win:17.0.1" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" value="project"/>
+		<level name="Maven: org.opentest4j:opentest4j:1.2.0" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-commons:1.8.2" value="project"/>
+		<level name="Maven: org.apiguardian:apiguardian-api:1.1.2" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-engine:1.8.2" value="project"/>
+		<level name="azure.core" value="project"/>
+		<level name="azure.resourcemanager" value="project"/>
+		<level name="azure.communication.email" value="project"/>
+		<level name="slf4j.api" value="project"/>
+		<level name="slf4j.jdk14" value="project"/>
+	</levels>
+</component>

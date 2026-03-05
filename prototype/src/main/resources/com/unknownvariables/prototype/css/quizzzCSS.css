@@ -1,0 +1,35 @@
+#quizzzButton{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+}
+
+
+/* Trivia Option Selection*/
+#triviaOptionButton{
+    -fx-pref-height: 80px;
+    -fx-min-height: 80px;
+    -fx-max-height: 80px;
+    -fx-pref-width: 100px;
+    -fx-min-width: 100px;
+    -fx-max-width: 100px;
+    -fx-background-radius: 15;
+    -fx-font-size: 25;
+    -fx-text-fill: white;
+}
+
+/* Previous Trivia Selection */
+#triviaPreviousButton{
+    -fx-pref-height: 50px;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+    -fx-pref-width: 250px;
+    -fx-min-width: 250px;
+    -fx-max-width: 250px;
+    -fx-background-radius: 15;
+    -fx-background-color: #0b2e59;
+    -fx-text-fill: white;
+}
+

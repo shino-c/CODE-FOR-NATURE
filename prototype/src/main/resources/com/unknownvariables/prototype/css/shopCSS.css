@@ -1,0 +1,107 @@
+.text{
+    -fx-font-family: HarmonyOS Sans SC;
+}
+
+.hyperlink{
+    -fx-focus-traversable: true;
+}
+
+
+
+
+#vboxGeneral{
+    -fx-background-image: url("../Images/bgImage.jpg");
+    -fx-background-size: cover;
+    -fx-pref-width: 1366px;
+    -fx-pref-height: 768px;
+    -fx-alignment: top-center;
+    -fx-padding: 20px 20px 20px 20px;
+
+}
+
+#shopButton{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+}
+
+#navButton{
+    -fx-background-color: #0b2e59;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+
+}
+
+#navButton:hover{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+#navButton:pressed, #shopButton:pressed{
+    -fx-background-color: #ccd91a;
+}
+
+#logoutButton{
+    -fx-background-color: yellow;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: black;
+    -fx-focus-traversable: true;
+}
+
+#logoutButton:hover{
+    -fx-background-color: yellow;
+    -fx-pref-width: 85px;
+
+}
+
+#logoutButton:pressed{
+    -fx-background-color: #ccd91a;
+}
+
+#checkoutButton{
+    -fx-background-color: blue;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 110px;
+    -fx-pref-height: 35px;
+    -fx-text-fill: white;
+    -fx-focus-traversable: true;
+}
+
+#checkoutButton:hover{
+    -fx-background-color: blue;
+    -fx-pref-width: 115px;
+    -fx-pref-height: 40px;
+
+
+}
+
+#checkoutButton:pressed{
+    -fx-background-color: rgb(0,90,255);
+}
+
+#resetButton{
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 35px;
+    -fx-text-fill: black;
+    -fx-focus-traversable: true;
+}
+
+#resetButton:hover{
+    -fx-background-color: white;
+    -fx-pref-width: 85px;
+    -fx-pref-height: 40px;
+
+}
+
+#resetButton:pressed{
+    -fx-background-color: rgb(200,200,200);
+}
+

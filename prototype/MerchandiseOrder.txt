@@ -1,0 +1,2 @@
+admin0001 orders 1 MERCH04 to 54, Jalan Kuala Lumpur, 30066, Petaling Jaya, Selangor, Malaysia
+ngyuheng2003 orders 1 MERCH04 to 123, Kampung UM, 50530, Kuala Lumpur, Wilayah Kuala Lumpur, Malaysia

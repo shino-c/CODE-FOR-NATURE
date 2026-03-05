@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="vboxGeneral" alignment="TOP_CENTER" stylesheets=" @css/shopCSS.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.unknownvariables.prototype.ShopController">
+    <children>
+        <HBox alignment="CENTER_LEFT" minHeight="70.0" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #0b2e59;">
+            <VBox.margin>
+                <Insets left="-20.0" right="-20.0" top="-20.0" />
+            </VBox.margin>
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="50.0">
+                    <image>
+                        <Image url="@Images/489969.png" />
+                    </image>
+                    <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </HBox.margin>
+                </ImageView>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Natural Intelligence" wrappingWidth="273.4062271118164">
+                    <font>
+                        <Font name="HarmonyOS Sans SC" size="30.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </Text>
+                <Pane prefHeight="70.0" prefWidth="150.0" HBox.hgrow="ALWAYS" />
+                <HBox alignment="CENTER_RIGHT" prefHeight="70.0" prefWidth="500.0" spacing="10.0">
+                    <children>
+                        <Button id="navButton" mnemonicParsing="false" onAction="#homeButtonClicked" text="Home" textFill="WHITE" />
+                        <Button id="navButton" mnemonicParsing="false" onAction="#newsButtonClicked" text="News" textFill="WHITE" />
+                        <Button id="navButton" mnemonicParsing="false" onAction="#quizzzButtonClicked" text="Quizzz" textFill="WHITE" />
+                        <Button id="shopButton" mnemonicParsing="false" onAction="#shopButtonClicked" text="Shop" textFill="WHITE" />
+                        <Button id="navButton" mnemonicParsing="false" onAction="#profileButtonClicked" text="Profile" textFill="WHITE" />
+                  <VBox alignment="CENTER" prefHeight="70.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="logoutButton1" mnemonicParsing="false" onAction="#donateButtonClicked" prefWidth="80.0" style="-fx-background-color: #3361AC; -fx-background-radius: 15;" text="Donate" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                        <VBox alignment="CENTER" prefHeight="70.0" prefWidth="100.0">
+                            <children>
+                                <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#logoutButtonClicked" text="Logout" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+            <padding>
+                <Insets left="10.0" right="10.0" />
+            </padding>
+        </HBox>
+      <HBox alignment="CENTER" disable="true" prefHeight="80.0" prefWidth="1326.0">
+         <children>
+            <VBox fx:id="shopMessageVBox" alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #0b2e59;" visible="false">
+               <HBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </HBox.margin>
+               <children>
+                  <Text fx:id="shopMessage" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </VBox.margin>
+         <children>
+            <Pane prefHeight="61.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point Shop">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </Text>
+            <Pane prefHeight="61.0" prefWidth="560.0" />
+            <HBox alignment="CENTER_LEFT" minWidth="200.0" prefHeight="100.0" prefWidth="200.0" style="-fx-background-radius: 30; -fx-background-color: rgb(255,255,255,0.5);">
+               <HBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </HBox.margin>
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="200.0" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/point_icon.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="30.0" prefWidth="65.0" />
+                  <Text fx:id="currentPoint" strokeType="OUTSIDE" strokeWidth="0.0" text="N/A" textAlignment="RIGHT" wrappingWidth="80.0">
+                     <font>
+                        <Font name="HarmonyOS Sans SC" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <Pane prefHeight="61.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="370.0" prefWidth="964.0">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="-10.0" />
+         </VBox.margin>
+         <children>
+            <Pane prefHeight="355.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+            <VBox prefHeight="365.0" prefWidth="630.0">
+               <children>
+                  <VBox prefHeight="270.0" prefWidth="630.0" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 15;">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your item here">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Pane prefHeight="16.0" prefWidth="600.0" />
+                        <VBox>
+                           <children>
+                              <ScrollPane prefHeight="200.0" prefWidth="750.0" style="-fx-background-color: transparent; -fx-background: transparent;" vbarPolicy="NEVER">
+                                 <content>
+                                    <HBox prefHeight="170.0" prefWidth="830.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" onAction="#merchBox1Clicked" style="-fx-background-color: transparent;">
+                                             <graphic>
+                                                <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+                                                   <children>
+                                                      <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@Images/shop_Images/merch1_image.png" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Pane prefHeight="10.0" prefWidth="150.0" />
+                                                      <Text fx:id="merchBox1" strokeType="OUTSIDE" strokeWidth="0.0" text="Merchandise ID">
+                                                         <font>
+                                                            <Font size="15.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MERCH01" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point: 1500" />
+                                                   </children>
+                                                </VBox>
+                                             </graphic>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#merchBox2Clicked" style="-fx-background-color: transparent;">
+                                             <graphic>
+                                                <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+                                                   <children>
+                                                      <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@Images/shop_Images/merch2_image.png" />
+                                                         </image></ImageView>
+                                                      <Pane prefHeight="10.0" prefWidth="150.0" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Merchandise ID">
+                                                         <font>
+                                                            <Font size="15.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MERCH02" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point: 1500" />
+                                                   </children>
+                                                </VBox>
+                                             </graphic>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#merchBox3Clicked" style="-fx-background-color: transparent;">
+                                             <graphic>
+                                                <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+                                                   <children>
+                                                      <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@Images/shop_Images/merch3_image.png" />
+                                                         </image></ImageView>
+                                                      <Pane prefHeight="10.0" prefWidth="150.0" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Merchandise ID">
+                                                         <font>
+                                                            <Font size="15.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MERCH03" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point: 500" />
+                                                   </children>
+                                                </VBox>
+                                             </graphic>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#merchBox4Clicked" style="-fx-background-color: transparent;">
+                                             <graphic>
+                                                <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+                                                   <children>
+                                                      <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@Images/shop_Images/merch4_image.png" />
+                                                         </image></ImageView>
+                                                      <Pane prefHeight="10.0" prefWidth="150.0" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Merchandise ID">
+                                                         <font>
+                                                            <Font size="15.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MERCH04" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point: 250" />
+                                                   </children>
+                                                </VBox>
+                                             </graphic>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#merchBox5Clicked" style="-fx-background-color: transparent;">
+                                             <graphic>
+                                                <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="150.0">
+                                                   <children>
+                                                      <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                                         <image>
+                                                            <Image url="@Images/shop_Images/merch5_image.png" />
+                                                         </image></ImageView>
+                                                      <Pane prefHeight="10.0" prefWidth="150.0" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Merchandise ID">
+                                                         <font>
+                                                            <Font size="15.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MERCH05" />
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point: 250" />
+                                                   </children>
+                                                </VBox>
+                                             </graphic>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </VBox>
+                  <Pane prefHeight="20.0" prefWidth="629.0" />
+                  <HBox prefHeight="84.0" prefWidth="629.0" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 15;">
+                     <children>
+                        <VBox prefHeight="84.0" prefWidth="410.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Plant a Tree, Save the Nature">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#646464" strokeType="OUTSIDE" strokeWidth="0.0" text="Help the word by planting a tree. You can have your name on it by entering your name at the Remarks section. (max 20 characters)" wrappingWidth="360.0">
+                                 <VBox.margin>
+                                    <Insets left="20.0" />
+                                 </VBox.margin>
+                              </Text>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <Pane prefHeight="84.0" prefWidth="59.0" />
+                        <Button mnemonicParsing="false" onAction="#plantTreeClicked" prefHeight="84.0" prefWidth="139.0" style="-fx-background-color: transparent; ">
+                           <graphic>
+                              <VBox alignment="CENTER" prefHeight="76.0" prefWidth="170.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Merchandise ID">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </Text>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PLANTATREE" />
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point: 1250" />
+                                 </children>
+                              </VBox>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Pane prefHeight="355.0" prefWidth="95.0" />
+            <VBox minWidth="200.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 15;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Checkout">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="5.0" />
+                     </VBox.margin>
+                  </Text>
+                  <Text fill="#9b9b9b" strokeType="OUTSIDE" strokeWidth="0.0" text="Redeem only one type of item at a time" wrappingWidth="150.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Pane prefHeight="15.0" prefWidth="160.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Merchandise ID*" />
+                  <TextField fx:id="merchIDInput" editable="false" promptText="PLANTATREE">
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Number of purchase**" />
+                  <TextField fx:id="numberOfPurchaseInput" editable="false" promptText="MAX 5">
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Delivery Address***" />
+                  <TextArea fx:id="deliveryAddress" editable="false" prefHeight="60.0" prefWidth="160.0" promptText="VALID ADDRESS" wrapText="true" />
+                  <Text fx:id="remarksText" strokeType="OUTSIDE" strokeWidth="0.0" text="Remarks" visible="false" />
+                  <TextArea fx:id="remarksInput" prefHeight="40.0" prefWidth="160.0" promptText="NAME FOR TREE" visible="false" wrapText="true" />
+                  <HBox prefHeight="20.0" prefWidth="160.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Point required: ">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="pointRequired" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </VBox>
+            <Pane prefHeight="355.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="110.0" prefWidth="1326.0">
+         <children>
+            <VBox prefHeight="60.0" prefWidth="920.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Instruction">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="*Select the item by clicking the Merchandise ID" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="**The Number of Purchase can be changed by clicking multiple times on the Merchandise ID" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="***Delivery Address can be changed/added through Profile" />
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="20.0" top="20.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="984.0" spacing="10.0">
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <VBox alignment="CENTER" prefHeight="55.0" prefWidth="90.0">
+               <children>
+                  <Button id="resetButton" mnemonicParsing="false" onAction="#resetButtonClicked" prefHeight="35.0" prefWidth="80.0" style="-fx-background-radius: 30;" text="Reset" />
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="55.0" prefWidth="130.0">
+               <children>
+                  <Button id="checkoutButton" fx:id="redeemButton" disable="true" mnemonicParsing="false" onAction="#redeemButtonClicked" prefHeight="35.0" prefWidth="110.0" style="-fx-background-radius: 30;" text="Redeem" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+    </children>
+</VBox>

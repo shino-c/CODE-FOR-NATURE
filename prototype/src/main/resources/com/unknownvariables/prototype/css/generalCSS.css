@@ -1,0 +1,70 @@
+.text{
+    -fx-font-family: HarmonyOS Sans SC;
+}
+
+.hyperlink{
+    -fx-focus-traversable: true;
+}
+
+.scroll-pane{
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-bar{
+    -fx-opacity: 0;
+}
+
+#vboxGeneral {
+    -fx-background-image: url("../Images/bgImage.jpg");
+    -fx-background-size: cover;
+    -fx-pref-width: 1366px;
+    -fx-pref-height: 768px;
+    -fx-padding: 20px 20px 20px 20px;
+}
+
+#logoutButton{
+    -fx-background-color: yellow;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: black;
+    -fx-focus-traversable: true;
+}
+
+#logoutButton:hover{
+    -fx-background-color: yellow;
+    -fx-pref-width: 85px;
+
+}
+
+#logoutButton:pressed{
+    -fx-background-color: #ccd91a;
+}
+
+#homeButton{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+}
+
+#navButton{
+    -fx-background-color: #0b2e59;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 60px;
+
+}
+
+#navButton:hover{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+#navButton:pressed,#homeButton:pressed{
+    -fx-background-color: #ccd91a;
+    -fx-text-fill: black;
+}

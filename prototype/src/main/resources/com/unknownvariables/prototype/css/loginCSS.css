@@ -1,0 +1,104 @@
+.text{
+    -fx-font-family: HarmonyOS Sans SC;
+}
+
+.hyperlink{
+    -fx-focus-traversable: true;
+}
+
+
+#vboxGeneral{
+    -fx-background-image: url("../Images/bgImage.jpg");
+    -fx-background-size: cover;
+    -fx-pref-width: 1366px;
+    -fx-pref-height: 768px;
+    -fx-alignment: center;
+    -fx-padding: 20px 20px 20px 20px;
+
+}
+
+#vboxLogin{
+    -fx-background-color: rgb(255, 255, 255, 0.5);
+    -fx-background-radius: 30;
+    -fx-alignment: top_center;
+    -fx-padding: 20px 20px 20px 20px;
+    -fx-spacing: 20px;
+    -fx-min-width: 400px;
+    -fx-min-height: 500px;
+    -fx-max-width: 400px;
+    -fx-max-height: 500px;
+
+}
+
+#titleAppLogin{
+    -fx-text-alignment: center;
+    -fx-font-size: 35px;
+
+}
+
+#vboxInputLogin, #vboxInputSignUp{
+    -fx-max-width: 300px;
+    -fx-alignment: top_left;
+    -fx-spacing: 10px;
+
+}
+
+#emailLogin,#passwordLogin,#userInput{
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(155, 155, 155, 0.7);
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-focus-traversable: true;
+
+}
+
+#loginButton{
+    -fx-background-color: blue;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: white;
+    -fx-focus-traversable: true;
+ }
+
+#loginButton:hover{
+    -fx-background-color: blue;
+    -fx-pref-width: 85px;
+
+}
+
+#loginButton:pressed{
+    -fx-background-color: rgb(0,90,255);
+}
+
+
+#hboxLinkLogin{
+    -fx-alignment: center;
+
+}
+
+/*-------------------------SignUpCSS----------------------------------- */
+
+#titleAppSignUp{
+    -fx-text-alignment: center;
+    -fx-font-size: 30px;
+
+}
+
+#backButton{
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-text-fill: black;
+    -fx-focus-traversable: true;
+}
+
+#backButton:hover{
+    -fx-background-color: white;
+    -fx-pref-width: 85px;
+
+}
+
+#backButton:pressed{
+    -fx-background-color: rgb(200,200,200);
+}
